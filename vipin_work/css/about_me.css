@@ -1,0 +1,38 @@
+body {
+    background-color:#FFEDED
+}
+h1{
+    color: black;
+}
+
+p{
+color: black
+}
+
+h2{
+margin: 100px
+}
+
+h3{
+    color: #66BFBF;
+}
+img {
+    height: 200px;
+}
+hr {
+    border-style: none;
+    border-top-style: dotted;
+    border-color: black;
+    border-width: 5px;
+    width: 10%;
+}
+.myContent{
+
+}
+#Email{
+height:20px;
+}
+
+#phone{
+height:30px
+}
