@@ -1,0 +1,93 @@
+body {
+    background-color:#DDDDDD;
+}
+
+/*image*/
+
+.profile-pic{
+    width:50px;
+    height:50px;
+}
+
+.facebook-icon{
+    width:30px;
+    height:30px;
+}
+
+.home-icon{
+  width:30px;
+  height:30px
+}
+.friend-icon{
+    width:30px;
+    height:30px;
+}
+
+.game-icon{
+    width:30px;
+    height:30px;
+}
+
+.video-icon{
+    width:30px;
+    height:30px;
+}
+
+/* Timeline picture */
+.timeline-pic {
+    width:400px;
+    height:400px;
+}
+
+/* Change color on hover */
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+/* The navbar container */
+.topnav {
+  overflow: hidden;
+  background-color:#DDDDDD;
+}
+
+/* Navbar links */
+.topnav a {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+/* Links - change color on hover */
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+
+.column {
+  float: left;
+}
+
+/* Left and right column */
+.column.left.side {
+  width: 20%;
+}
+
+.column.right.side {
+    width:40%
+}
+/* Middle column */
+.column.middle {
+  width: 40%;
+}
+
+/* Responsive layout - makes the three columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+  .column.left.side, .column.middle, .colunm.right.side {
+    width: 100%;
+  }
+}
