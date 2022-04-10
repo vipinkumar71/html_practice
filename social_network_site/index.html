@@ -4,26 +4,31 @@
     <meta charset="UTF-8">
     <title>Social-Network</title>
     <link rel="stylesheet" href="css/style.css">
-    <link image="">
 </head>
 <body>
 
 <!----Navbar--->
-<div class="topnav">
+<div class="topnav" >
   <a href="www.google.com"><img class="#"  src="images/facebook.png"><input type="text" placeholder="Search..">
 </a>
     <!---middle top icon --->
-  <a href="#"><img class="facebook-icon" src="images/home.png"/></a>
-  <a href="#"><img class ="facebook-icon" src="images/friends.png"/></a>
+    <div class="middle top icon">
+        <a href="#"><img class="facebook-icon" src="images/home.png"/></a>
+    <a href="#"><img class ="facebook-icon" src="images/friends.png"/></a>
     <a href="#"><img class="facebook-icon" src="images/watch.png"/></a>
     <a href="#"><img class="facebook-icon" src="images/marketplace.png"/></a>
     <a href="#"><img class="facebook-icon" src="images/game.png"/></a>
 
+    </div>
+
 
    <!----Left top icon-->
-    <img class="profile-pic" src="images/circle-cropped.png">
+    <div class="topnav-left">
+        <a><img class="facebook-icon" src="images/circle-cropped.png"></a>
+        <a href="#"><img class="notification" src="images/menu.png"> </a>
+        <a href="#"><img class="notification" src="images/notification-icon.png"> </a>
         <a href="#"><img src="images/messenger2.png"> </a>
-    <a href="#"><img src="images/notification.png"> </a>
+</div>
 
 </div>
 
@@ -42,7 +47,7 @@
     </tr>
 </table>
 <tb>
-    <ul>
+    <ul >
         <li><img class="facebook-icon" src="images/friend-icon.png" />
             Friends
         </li>
@@ -111,10 +116,11 @@
   </div>
 <!--Timeline--->
   <div class="column middle">
+      <form>
+          <input text="text" placeholder="What's on your mind, Vipin?">
+      </form>
     <h2>Timeline</h2>
     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas sit  neque ultricies, eget elementum magna tristique. Quisque vehicula, risus eget aliquam placerat, purus leo tincidunt eros, eget luctus quam orci in velit. Praesent scelerisque tortor sed accumsan convallis.</p>
-
-
 
       <img class="timeline-pic" src="images/pic/cow.jpg"><br>
       <button href="#" class = "like">Like</button>
@@ -125,16 +131,37 @@
 
 <!---contacts-->
 
-  <div class="column right side">
-    <h2>Contacts</h2>
-    <p> Vijender kumar</p>
-      <p>Vikas Verma</p>
-      <p>Yoginder raj</p>
-      <p>Ajay</p>
-      <P>Rakesh kumar</P>
-      <p>Mahesh Verma</p>
+  <div class="column right side" >
+      <h2>Contacts</h2>
+<ul>
+          <li><img class="notification" src="images/contact-pic/vijender.jpeg">
+                     Vijender kumar
+
+          </li>
+          <li><img class="notification" src="images/contact-pic/vikas.jpeg">
+                    Vikas Verma
+
+          </li>
+          <li>
+                    <p>Yoginder raj</p>
+
+          </li>
+          <li>
+                    <p>Ajay</p>
+
+          </li>
+          <li>
+                    <P>Rakesh kumar</P>
+
+          </li>
+          <li>
+                    <p>Mahesh Verma</p>
+
+          </li>
+      </ul>
   </div>
 </div>
 
 </body>
+
 </html>
